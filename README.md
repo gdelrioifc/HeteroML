@@ -1,25 +1,28 @@
 # HeteroML
 This repository includes all supplemental material for the publication entitled "Heterologous machine learning for the identification of antimicrobial activity in human-targeted drugs", by Rodrigo A. Nava Lara and collaborators, submitted to Molecules.
 This material include the following files:
-File S1: Script to execute the best model to predict antimicrobials on FDA-approved drugs
-Table S1: Training sets in ARF format for TrOnlyPeptides
-Table S2: Training sets in ARFF format for TrNPCC1
-Table S3: Training sets in ARFF format for TrNPCC2
-Table S4: Training sets in ARFF format for TrNPCC3
-Table S5: Training sets in ARFF format for TrNPCC4
-Table S6: Training sets in ARFF format for TrHeterologous1
-Table S7: Training sets in ARFF format for TrHeterologous2
-Table S8: Training sets in ARFF format for TrHeterologous3
-Table S9: Training sets in ARFF format for TrHeterologous4
-Table S10: Testing sets in ARF format for TeOnlyPeptides
-Table S11: Testing sets in ARF format for TeNPCC1
-Table S12: Testing sets in ARF format for TeNPCC2
-Table S13: Testing sets in ARF format for TeNPCC3
-Table S14: Testing sets in ARF format for TeNPCC4
-Table S15: Testing sets in ARF format for TeHetrelogous1
-Table S16: Testing sets in ARF format for TeHetrelogous2
-Table S17: Testing sets in ARF format for TeHetrelogous3
-Table S18: Testing sets in ARF format for TeHetrelogous4
-Table S19: Parameter values for all models tested
-Table S20: CScore values for all model tested
-Table S21: Discovery set
+<table border=1>
+  <th>File Name</th><th>Description</th>
+  <tr><td>File S1</td><td>Script to execute the best model to predict antimicrobials on FDA-approved drugs</td></tr>
+  <tr><td>Table S1</td><td>Training sets in ARF format for TrOnlyPeptides</td></tr>
+  <tr><td>Table S2</td><td>Training sets in ARFF format for TrNPCC1</td></tr>
+  <tr><td>Table S3</td><td>Training sets in ARFF format for TrNPCC2</td></tr>
+  <tr><td>Table S4</td><td>Training sets in ARFF format for TrNPCC3</td></tr>
+  <tr><td>Table S5</td><td>Training sets in ARFF format for TrNPCC4</td></tr>
+  <tr><td>Table S6</td><td>Training sets in ARFF format for TrHeterologous1</td></tr>
+  <tr><td>Table S7</td><td>Training sets in ARFF format for TrHeterologous2</td></tr>
+  <tr><td>Table S8</td><td>Training sets in ARFF format for TrHeterologous3</td></tr>
+  <tr><td>Table S9</td><td>Training sets in ARFF format for TrHeterologous4</td></tr>
+  <tr><td>Table S10</td><td>Testing sets in ARF format for TeOnlyPeptides</td></tr>
+  <tr><td>Table S11</td><td>Testing sets in ARF format for TeNPCC1</td></tr>
+  <tr><td>Table S12</td><td>Testing sets in ARF format for TeNPCC2</td></tr>
+  <tr><td>Table S13</td><td>Testing sets in ARF format for TeNPCC3</td></tr>
+  <tr><td>Table S14</td><td>Testing sets in ARF format for TeNPCC4</td></tr>
+  <tr><td>Table S15</td><td>Testing sets in ARF format for TeHetrelogous1</td></tr>
+  <tr><td>Table S16</td><td>Testing sets in ARF format for TeHetrelogous2</td></tr>
+  <tr><td>Table S17</td><td>Testing sets in ARF format for TeHetrelogous3</td></tr>
+  <tr><td>Table S18</td><td>Testing sets in ARF format for TeHetrelogous4</td></tr>
+  <tr><td>Table S19</td><td>Parameter values for all models tested</td></tr>
+  <tr><td>Table S20</td><td>CScore values for all model tested</td></tr>
+  <tr><td>Table S21</td><td>Discovery set</td></tr>
+</table>
