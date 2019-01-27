@@ -1,0 +1,8 @@
+#!/bin/sh
+java -cp /path-to/Weka/weka-3-9-1/weka.jar:/path-to/Weka/wekafiles/packages/Auto-WEKA/autoweka.jar weka.classifiers.trees.RandomForest -T /path-to/DiscoverySet.arff -l /path-to/3-TrainingA/TrHeterologous1-Original-model-CRF10.model > DiscoverySet-TrHeterologous1-Original-CRF10.txt
+java -cp /path-to/Weka/weka-3-9-1/weka.jar:/path-to/Weka/wekafiles/packages/Auto-WEKA/autoweka.jar weka.classifiers.trees.RandomForest -T /path-to/DiscoverySet.arff -l /path-to/3-TrainingA-ZERO-ACP/TrHeterologous1-Reduced-with-0-model-CRF159.model > DiscoverySet-TrHeterologous1-Reduced-with-0-CRF159.txt
+java -cp /path-to/Weka/weka-3-9-1/weka.jar:/path-to/Weka/wekafiles/packages/Auto-WEKA/autoweka.jar weka.classifiers.meta.RandomCommittee -T /path-to/DiscoverySet.arff -l /path-to/3-TrainingA-INFI-ACP/TrHeterologous1-Reduced-with-99M-model-CRC20_CRF.model > DiscoverySet-TrHeterologous1-Reduced-with-99M-CRC20_CRF.txt
+java -cp /path-to/Weka/weka-3-9-1/weka.jar:/path-to/Weka/wekafiles/packages/Auto-WEKA/autoweka.jar weka.classifiers.trees.RandomForest -T /path-to/DiscoverySet.arff -l /path-to/3-TrainingB/TrHeterologous2-Original-model-CRF10.model > DiscoverySet-TrHeterologous2-Original-CRF10.txt
+java -cp /path-to/Weka/weka-3-9-1/weka.jar:/path-to/Weka/wekafiles/packages/Auto-WEKA/autoweka.jar weka.classifiers.trees.RandomForest -T /path-to/DiscoverySet.arff -l /path-to/3-TrainingB/TrHeterologous2-Transformed-with-0-model-CRF10.model > DiscoverySet-TrHeterologous2-Transformed-with-0-CRF10.txt
+wait
+echo Testing end
